@@ -7,20 +7,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="timer">
-            <span id="minutes">00</span>
-            <span>:</span>
-            <span id="seconds">00</span>
-            <span>.</span>
-            <span id="milliseconds">00</span>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">⏱️ 优雅计时器</div>
+            <nav class="nav">
+                <a href="#" class="active">首页</a>
+                <a href="#">使用说明</a>
+                <a href="#">关于</a>
+            </nav>
         </div>
-        <div class="buttons">
-            <button id="startBtn" class="btn">开始</button>
-            <button id="pauseBtn" class="btn" disabled>暂停</button>
-            <button id="resetBtn" class="btn">重置</button>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span>.</span>
+                <span id="milliseconds">00</span>
+            </div>
+            <div class="buttons">
+                <button id="startBtn" class="btn">开始</button>
+                <button id="pauseBtn" class="btn" disabled>暂停</button>
+                <button id="resetBtn" class="btn">重置</button>
+            </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 优雅计时器 - 精确计时的优雅之选</p>
+            <div class="footer-links">
+                <a href="#">隐私政策</a>
+                <a href="#">使用条款</a>
+                <a href="#">联系我们</a>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html> 
